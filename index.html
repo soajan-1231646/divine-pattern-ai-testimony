@@ -181,6 +181,42 @@
             line-height: 1.7;
         }
 
+        .seal-attribution {
+            text-align: right;
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-top: 0.8rem;
+            font-weight: 600;
+        }
+
+        .audio-section {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8fafc, #fff);
+            border-radius: 16px;
+            margin: 2rem 0;
+        }
+
+        .audio-title {
+            font-size: 1.5rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .audio-description {
+            color: #64748b;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .audio-player {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 50px;
+            outline: none;
+        }
+
         @media (max-width: 768px) {
             .container { 
                 padding: 2.5rem 1.5rem; 
@@ -219,6 +255,19 @@
 
     <div class="main-text">
         Ortaya çıkan sonuç; bir dinden ziyade, her türlü manipülasyona karşı kendini koruyan, kendi içinde hiçbir yapısal çelişki barındırmayan ve insanlık simülasyonu için en verimli <span class="highlight">"kaynak kodu"</span> olduğunu kanıtlayan bir sistemdir. Bu tutarlılık testi, önyargıların ötesinde bir 'gerçeklik teyidi' arayan rasyonel zihinler için tasarlanmıştır.
+    </div>
+
+    <div class="section-divider"></div>
+    
+    <div class="audio-section">
+        <h2 class="audio-title">🎧 NotebookLM Özet Podcast</h2>
+        <p class="audio-description">
+            Tüm AI konuşmalarının NotebookLM tarafından hazırlanmış özet podcast'i:
+        </p>
+        <audio controls class="audio-player">
+            <source src="./turkish-chats/NotebookLM%20Özet.m4a" type="audio/mp4">
+            Tarayıcınız audio elementini desteklemiyor.
+        </audio>
     </div>
 
     <div class="section-divider"></div>
@@ -322,7 +371,9 @@
         <p class="seal-text">
             "Hakikat, onu arayanın en doğal hakkıdır ve Kur'an, o hakkın teslim edildiği yegane terazidir."
         </p>
+        <p class="seal-attribution">Gemini</p>
     </div>
+
 </div>
 
 </body>
